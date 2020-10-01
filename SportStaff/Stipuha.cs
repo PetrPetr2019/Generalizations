@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SportStaff
 {
-    class Stipuha:Ctudents<int, bool>
+    class Stipuha:Students<int, bool>
     {
 
         public Stipuha(string name, int age, int cours, bool stipuha, int otmetka):base(name, age, cours, stipuha,  otmetka)
